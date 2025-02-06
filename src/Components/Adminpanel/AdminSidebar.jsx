@@ -163,6 +163,7 @@ const AdminSidebar = ({ isCollapsed }) => {
                     )}
                   </div>
                 </button>
+                
                 {isCategoriesOpen && !isCollapsed && (
                   <ul className="nav flex-column pl-4">
                     <li className="nav-item">
